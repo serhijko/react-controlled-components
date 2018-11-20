@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-* `git clone git@github.com:the-road-to-learn-react/react-controlled-components.git`
+* `git clone git@github.com:serhijko/react-controlled-components.git`
 * cd react-controlled-components
 * yarn install
 * yarn start
