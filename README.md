@@ -6,8 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-* `git clone git@github.com:the-road-to-learn-react/react-controlled-components-examples.git`
-* cd react-controlled-components-examples
+* `git clone git@github.com:the-road-to-learn-react/react-controlled-components.git`
+* cd react-controlled-components
 * yarn install
 * yarn start
 * visit [http://localhost:3000](http://localhost:3000) to view it in the browser.
