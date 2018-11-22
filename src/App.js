@@ -4,6 +4,7 @@ import './App.css';
 
 import Select from './Components/Select';
 import NumberInput from './Components/NumberInput';
+import TextInput from './Components/TextInput';
 
 class App extends Component {
   render() {
@@ -23,6 +24,9 @@ class App extends Component {
         </div>
         <div>
           <NumberInput label={'Choose a number'} min={-1} max={3} />
+        </div>
+        <div>
+          <TextInput label={'Type a text'} />
         </div>
       </div>
     );
