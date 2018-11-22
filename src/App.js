@@ -6,6 +6,7 @@ import Select from './Components/Select';
 import NumberInput from './Components/NumberInput';
 import TextInput from './Components/TextInput';
 import Checkbox from './Components/Checkbox';
+import Radio from './Components/Radio';
 
 class App extends Component {
   render() {
@@ -31,6 +32,9 @@ class App extends Component {
         </div>
         <div>
           <Checkbox label={'Check the box'} />
+        </div>
+        <div>
+          <Radio label={'Choose a size'} />
         </div>
       </div>
     );
