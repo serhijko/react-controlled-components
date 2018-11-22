@@ -63,7 +63,7 @@ class NumberInput extends Component {
 
         Result: {this.state.value}
       </label>
-    )
+    );
   }
 }
 
