@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Select from './Components/Select';
+import NumberInput from './Components/NumberInput';
 
 class App extends Component {
   render() {
@@ -17,7 +18,12 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         
-        <Select label={'Choose a fruit'} />
+        <div>
+          <Select label={'Choose a fruit'} />
+        </div>
+        <div>
+          <NumberInput label={'Choose a number'} min={-1} max={3} />
+        </div>
       </div>
     );
   }
