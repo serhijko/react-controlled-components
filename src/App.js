@@ -5,6 +5,7 @@ import './App.css';
 import Select from './Components/Select';
 import NumberInput from './Components/NumberInput';
 import TextInput from './Components/TextInput';
+import Checkbox from './Components/Checkbox';
 
 class App extends Component {
   render() {
@@ -27,6 +28,9 @@ class App extends Component {
         </div>
         <div>
           <TextInput label={'Type a text'} />
+        </div>
+        <div>
+          <Checkbox label={'Check the box'} />
         </div>
       </div>
     );
